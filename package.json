@@ -1,0 +1,30 @@
+{
+  "name": "oo-projektna-naloga-globe",
+  "version": "1.0.0",
+  "description": "Personal project I did for the course \"design basics\" at the Faculty of Computer Science and Informatics Ljubljana, Slovenia.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-globe.gl": "2.24.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build:webpack:production": "webpack --mode production",
+    "build:webpack": "webpack"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
